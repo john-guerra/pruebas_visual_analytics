@@ -20,7 +20,7 @@ svg {
 </style>
 <body>
 <div id="chart"></div>
-<script src="http://d3js.org/d3.v4.min.js"></script>
+<script src="//d3js.org/d3.v4.min.js"></script>
 <script type="text/javascript" src="networkCanvasChart.js">   </script>
 <script type="text/javascript" src="netClustering.js">   </script>
 <script type="text/javascript" src="jLouvain.js"></script>
@@ -42,7 +42,7 @@ var rScale = d3.scaleLinear().range([5, 10]);
 // var xTweeters = d3.scale.ordinal().rangeBands([20, width-20]);
 
 
-d3.json("ieeevisNetwork.json", function(error, graph) {
+d3.json("getData", function(error, graph) {
   if (error) throw error;
 
 

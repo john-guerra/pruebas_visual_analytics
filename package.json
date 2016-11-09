@@ -1,0 +1,22 @@
+{
+  "name": "pruebas_visual_analytics",
+  "version": "1.0.0",
+  "description": "Pruebas Visual Anlytics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-guerra/pruebas_visual_analytics.git"
+  },
+  "author": "John Alexis Guerra Gómez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/john-guerra/pruebas_visual_analytics/issues"
+  },
+  "homepage": "https://github.com/john-guerra/pruebas_visual_analytics#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
